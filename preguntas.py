@@ -275,7 +275,7 @@ def pregunta_07():
             if i==j[0]:
                 lisletra.append(j[1])
                       
-        lisResultado.append((i,lisletra))
+        lisResultado.append((int(i),lisletra))
     
     return lisResultado
 
@@ -324,7 +324,7 @@ def pregunta_08():
                 lisletra.append(j[1])
                 
         lisletra.sort(key=itemgetter(0), reverse=False)         
-        lisResultado.append((i,lisletra))
+        lisResultado.append((int(i),lisletra))
 
     return lisResultado
 
